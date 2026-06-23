@@ -46,12 +46,31 @@
     "name": "Продаж плівки Oracal Print Vinyl"
   },
     "availability": "https://schema.org/InStock",
+  "shippingDetails": {
+      "@type": "OfferShippingDetails",
+      "shippingRate": {
+        "@type": "MonetaryAmount",
+        "value": "80",
+        "currency": "UAH"
+      }, 
+  "shippingDestination": {
+        "@type": "DefinedRegion",
+        "addressCountry": "UA"
+      },
     "url": "https://oracal-obukhiv.shop/", 
   "sameAs": [
     "https://www.olx.ua/d/uk/obyavlenie/orafol-oracal-orakal-print-vinyl-vnl-pvh-white-plvka-samokleyucha-dlya-druku-ID10HX3s.html"
   ],
     "areaServed": "UA"
   }, 
+  "hasMerchantReturnPolicy": {
+      "@type": "MerchantReturnPolicy",
+      "applicableCountry": "UA",
+      "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnPeriod",
+      "merchantReturnDays": 14,
+      "returnMethod": "https://schema.org/ReturnByMail",
+      "returnFees": "https://schema.org/ReturnFeesCustomer"
+    },
   "aggregateRating": {
     "@type": "AggregateRating",
     "ratingValue": "4.9",
